@@ -6,12 +6,12 @@ import { Row, Col } from 'react-bootstrap';
 import director from "../Icons/director.jpg";
 import iiti from "../Icons/iiti.jpg";
 import './home.css'
-import Carouselforhome from '../Carousel/Carouselforhome';
 import Alumnipics from '../Alumnipics/alumnipics';
 import Gallery from '../Carousel/carousel';
 import Postsforhomedb from './postsforhome/Postsforhomedb';
 import { Link } from 'react-router-dom';
 import Announcementsforhomedb from './announcementsforhome/Announcementsforhomedb';
+import Particles from "../components/Particles";
 
 
 
@@ -19,7 +19,9 @@ const Home = (User) => {
     return (
         <div className="home">
             <NavBar />
+            {/* <Particles />
             <div className="container">
+                <Particles />
                 <Row>
                     <Col sm={12} lg={8}>
                         <div>
@@ -40,7 +42,7 @@ const Home = (User) => {
                         </div>
                     </Col>
                 </Row>
-            </div>
+            </div> */}
             <div className="margin-container-home">
                 <Row>
                     <Col sm={12} lg={4}>

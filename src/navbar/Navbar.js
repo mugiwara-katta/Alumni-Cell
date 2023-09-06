@@ -37,7 +37,7 @@ const NavBar = () => {
                         <Nav className="me-auto">
                             <Nav.Link className="navbar-brand"><Link to="/" style={{ textDecoration: 'none' }}><a className="link">Home</a></Link></Nav.Link>
                             <Nav.Link className="navbar-brand"><Link to="/Posts" style={{ textDecoration: 'none' }}><a className="link">Posts</a></Link></Nav.Link>
-                            <Nav.Link className="navbar-brand"><Link to="/" style={{ textDecoration: 'none' }} ><a className="link">Announcements</a></Link></Nav.Link>
+                            <Nav.Link className="navbar-brand"><Link to="/Announcements" style={{ textDecoration: 'none' }} ><a className="link">Announcements</a></Link></Nav.Link>
                             {/* <Nav.Link className= "navbar-brand link">Initiatives</Nav.Link> */}
                             {/* <NavDropdown className="link" title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -52,9 +52,9 @@ const NavBar = () => {
                             {!!currentUser ? (
                                 <>
                                     
-                                    <Nav.Link eventKey={2}><Link to="/Users" style={{ textDecoration: 'none' }}>
+                                    {/* <Nav.Link eventKey={2}><Link to="/Users" style={{ textDecoration: 'none' }}>
                                         <a className="link">Users</a></Link>
-                                    </Nav.Link>
+                                    </Nav.Link> */}
                                     <Nav.Link eventKey={2}><Link to="/Profile" style={{ textDecoration: 'none' }}>
                                         <a className="link">Profile</a></Link>
                                     </Nav.Link>

@@ -32,7 +32,7 @@ function App() {
           <Route path="/UserAuth" exact component={UserAuth} />
           <Route path="/SignupPage" exact component={SignupPage} />
           <Route path="/forgotPassword" exact component={forgotPassword} />
-          <Particles/>
+          {/* <Particles/> */}
           <Route path="/" exact component={Home} />
           <PrivateRoute path="/Profile" exact component={Profiledata} />
           <PrivateRoute path="/Editprofiledata" exact component={Editprofiledata} />
